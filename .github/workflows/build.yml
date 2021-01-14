@@ -105,4 +105,4 @@ jobs:
                   coverage: none
 
             - name: Execute check
-              run: phpcs --standard=psr12 src/ tests/
+              run: phpcs --standard=psr12 src/
