@@ -1,12 +1,14 @@
 # SQL Dumper
 
-[![Required Laravel Version][ico-laravel]][link-packagist]
-[![Required PHP Version][ico-php]][link-packagist]
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+[![Author][ico-author]][link-author]
+[![PHP Version][ico-php]][link-php]
+[![Laravel Version][ico-laravel]][link-laravel]
+[![Build Status][ico-actions]][link-actions]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
+[![Latest Version][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![PSR-12][ico-psr12]][link-psr12]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Laravel package to dump SQL queries, related `EXPLAIN` and location in code in different formats:
@@ -136,20 +138,24 @@ If you discover any security related issues, please email andrea.marco.sartori@g
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-laravel]: https://img.shields.io/badge/Laravel-%E2%89%A5%205.6-ff2d20?style=flat-square&logo=laravel
-[ico-php]: https://img.shields.io/packagist/php-v/cerbero/sql-dumper?color=%238892BF&style=flat-square&logo=php
-[ico-version]: https://img.shields.io/packagist/v/cerbero/sql-dumper.svg?style=flat-square
+[ico-author]: https://img.shields.io/static/v1?label=author&message=cerbero90&color=50ABF1&logo=twitter&style=flat-square
+[ico-php]: https://img.shields.io/packagist/php-v/cerbero/sql-dumper?color=%234F5B93&logo=php&style=flat-square
+[ico-laravel]: https://img.shields.io/static/v1?label=laravel&message=%E2%89%A55.6&color=ff2d20&logo=laravel&style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/cerbero/sql-dumper.svg?label=version&style=flat-square
+[ico-actions]: https://img.shields.io/github/workflow/status/cerbero90/sql-dumper/build?style=flat-square&logo=github
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/cerbero90/sql-dumper/master.svg?style=flat-square&logo=travis
+[ico-psr12]: https://img.shields.io/static/v1?label=compliance&message=PSR-12&color=blue&style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/cerbero90/sql-dumper.svg?style=flat-square&logo=scrutinizer
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/cerbero90/sql-dumper.svg?style=flat-square&logo=scrutinizer
 [ico-downloads]: https://img.shields.io/packagist/dt/cerbero/sql-dumper.svg?style=flat-square
 
+[link-author]: https://twitter.com/cerbero90
+[link-php]: https://www.php.net
+[link-laravel]: https://laravel.com
 [link-packagist]: https://packagist.org/packages/cerbero/sql-dumper
-[link-travis]: https://travis-ci.org/cerbero90/sql-dumper
+[link-actions]: https://github.com/cerbero90/sql-dumper/actions?query=workflow%3Abuild
+[link-psr12]: https://www.php-fig.org/psr/psr-12/
 [link-scrutinizer]: https://scrutinizer-ci.com/g/cerbero90/sql-dumper/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/cerbero90/sql-dumper
 [link-downloads]: https://packagist.org/packages/cerbero/sql-dumper
-[link-author]: https://github.com/cerbero90
 [link-contributors]: ../../contributors
-[link-config]: ./config/sql_dumper.php
